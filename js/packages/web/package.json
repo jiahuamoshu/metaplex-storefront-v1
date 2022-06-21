@@ -60,7 +60,7 @@
     "start:prod": "next start",
     "test": "jest --passWithNoTests",
     "deploy:ar": "yarn export && arweave deploy-dir  ../../build/web --key-file ",
-    "deploy:gh": "yarn export ../../build/web --repo https://github.com/bapcsolana/uga-mart -t true",
+    "deploy:gh": "yarn export ../../build/web --repo https://github.com/jiahuamoshu/metaplex-storefront-v1.git -t true",
     "deploy": "yarn build && yarn deploy:gh",
     "format:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|md)\""
   },
